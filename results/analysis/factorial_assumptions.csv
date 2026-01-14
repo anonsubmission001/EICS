@@ -1,0 +1,11 @@
+dv,analysis_type,n,shapiro_resid_p,shapiro_resid_ok,levene_cells_p,levene_cells_ok,parametric_ok
+loss_pct,anova,67,0.0002167995674129339,False,0.23604612537409944,True,False
+loss_pct,rank_anova,67,0.6750078633216929,True,0.9799649034026243,True,True
+table_pct,anova,67,0.16011346339832988,True,0.027501389211649022,False,False
+table_pct,rank_anova,67,0.08845851511220851,True,0.571713818215051,True,True
+screen_pct,anova,67,0.08470021833866916,True,0.00034642004903547897,False,False
+screen_pct,rank_anova,67,0.04127130791713816,False,0.005441218237374736,False,False
+table_share_valid,anova,67,0.4133746092417997,True,0.04836123981660304,False,False
+table_share_valid,rank_anova,67,0.9699838633382866,True,0.8591087935574258,True,True
+screen_share_valid,anova,67,0.4133746092417989,True,0.048361239816603216,False,False
+screen_share_valid,rank_anova,67,0.9699838633382865,True,0.8591087935574258,True,True

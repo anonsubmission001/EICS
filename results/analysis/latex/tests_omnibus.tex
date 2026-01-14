@@ -1,0 +1,36 @@
+%
+\normalsize%
+
+
+\begin{table}[t]%
+\centering%
+\small%
+\begin{tabular}{l l l l r r r l}%
+\hline%
+DV&Subset&Factor&Test&Stat&p&p(BH)&Effect\\%
+\hline%
+Unrelevant / Loss (\%)&Sitting&setup&mannwhitneyu&287.000&$<.001$&$<.001$&\\%
+Unrelevant / Loss (\%)&Standing&setup&mannwhitneyu&272.000&$<.001$&$<.001$&\\%
+Table (\%)&Sitting&setup&welch\_t&-13.717&$<.001$&$<.001$&$g=-4.594$\\%
+Table (\%)&Standing&setup&mannwhitneyu&0.000&$<.001$&$<.001$&\\%
+Screen (\%)&Sitting&setup&mannwhitneyu&125.000&0.513&0.615&\\%
+Screen (\%)&Standing&setup&mannwhitneyu&55.000&0.004&0.013&\\%
+Unrelevant / Loss (\%)&Sitting / Remote&calibration\_loss&anova\_oneway&0.804&0.467&0.601&$\eta^2=0.103$\\%
+Unrelevant / Loss (\%)&Sitting / Head-mounted&calibration\_loss&anova\_oneway&7.012&0.008&0.023&$\eta^2=0.500$\\%
+Unrelevant / Loss (\%)&Standing / Remote&calibration\_loss&kruskal&2.914&0.233&0.407&$\epsilon^2=0.057$\\%
+Unrelevant / Loss (\%)&Standing / Head-mounted&calibration\_loss&kruskal&2.149&0.342&0.473&$\epsilon^2=0.010$\\%
+Table (\%)&Sitting / Remote&calibration\_table&anova\_oneway&2.124&0.156&0.313&$\eta^2=0.233$\\%
+Table (\%)&Sitting / Head-mounted&calibration\_table&anova\_oneway&2.127&0.156&0.313&$\eta^2=0.233$\\%
+Table (\%)&Standing / Remote&calibration\_table&kruskal&2.559&0.278&0.417&$\epsilon^2=0.035$\\%
+Table (\%)&Standing / Head-mounted&calibration\_table&kruskal&2.782&0.249&0.407&$\epsilon^2=0.052$\\%
+Screen (\%)&Sitting / Remote&calibration\_screen&anova\_oneway&0.023&0.880&0.880&$\eta^2=0.002$\\%
+Screen (\%)&Sitting / Head-mounted&calibration\_screen&anova\_oneway&2.205&0.147&0.313&$\eta^2=0.240$\\%
+Screen (\%)&Standing / Remote&calibration\_screen&kruskal&0.422&0.810&0.880&$\epsilon^2=-0.099$\\%
+Screen (\%)&Standing / Head-mounted&calibration\_screen&kruskal&0.280&0.869&0.880&$\epsilon^2=-0.115$\\%
+\hline%
+\end{tabular}%
+\caption{Omnibus inferential tests. BH indicates Benjamini--Hochberg correction across omnibus tests.}%
+\label{tab:tests_omnibus}%
+\end{table}
+
+%

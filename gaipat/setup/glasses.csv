@@ -1,0 +1,5 @@
+setup,position,glasses,no_glasses
+head_mounted,sitting,4,16
+head_mounted,standing,2,18
+remote,sitting,5,15
+remote,standing,4,16
