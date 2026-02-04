@@ -34,4 +34,4 @@ SCORES_LEGEND = {
 SCENES = ['table', 'screen']
 
 # --- Dataset Path ---
-DATASET = '../gaipat'
+DATASET = '../dataset'
